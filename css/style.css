@@ -39,7 +39,7 @@ p {
 }
 
 .lead {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .btn {
@@ -58,7 +58,7 @@ p {
 }
 
 .btn-light {
-    background-color: #e7fcfe;
+    background-color: #ffff;
     color: #8ed4d0;
 }
 
@@ -68,8 +68,12 @@ p {
 }
 
 .bg-primary {
-    background: #e7fcfe;
-    color: #0b5e56;
+    background: #0b5e56;
+    color: #e7fcfe;
+}
+
+.clr {
+    clear: both;
 }
 
 /*  Navbar */
@@ -134,7 +138,7 @@ p {
 }
 
 #showcase .showcase-content h1 {
-    font-size: 70px;
+    font-size: 80px;
     line-height: 1.0em;
 }
 
@@ -144,13 +148,12 @@ p {
     padding-bottom: 10px;
     line-height: 1.1em;
     background-color: #0b5e56;
-    display: block;
     opacity: 50%;
 }
 
 /* Home info */
 #home-info {
-    height: 400px;
+    height: 500px;
 }
 
 #home-info .info-img {
@@ -170,6 +173,34 @@ p {
     overflow: hidden;
 }
 
+#home-info .info-content h2 {
+    font-size: 35px;
+}
+
 #home-info .info-content p {
     padding-bottom: 30px;
+    font-size: 20px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background-color: ;
+    color: #0b5e56;
+    padding-top: 20px;
+    font-size: 18px;
+    ;
 }
